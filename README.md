@@ -1,30 +1,35 @@
-# GameMania
+# 🎮 Desenvolvimento Gamemania - SENAI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+## Descrição
+Este projeto, desenvolvido como atividade do SENAI, tem como objetivo a criação de um aplicativo web para uma loja de jogos eletrônicos utilizando o framework Angular.
 
-## Development server
+## Tecnologias Utilizadas
+Angular: Framework front-end para desenvolvimento de aplicações web.  
+[Outras tecnologias utilizadas, como TypeScript, RxJS, Material Design, etc.]  
+[Ferramentas de desenvolvimento, como Angular CLI, Visual Studio Code, etc.]  
+## Como Executar o Projeto
+### Clonar o repositório:
+```
+Bash
+git clone https://github.com/levicarlosz/gamemania-senai.git
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Instalar as dependências:
+```
+Bash
+cd gamemania-senai
+npm install
+```
 
-## Code scaffolding
+### Iniciar o servidor de desenvolvimento:
+```
+Bash
+npm start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# gamemania-senai
-# gamemania-senai
-# gamemania-senai
+Acesse http://localhost:4200/ para visualizar a aplicação.
+## Estrutura do Projeto
+src: Contém os arquivos fonte da aplicação, como componentes, serviços, modelos, etc.
+assets: Armazena arquivos estáticos, como imagens, ícones e fontes.
+environments: Configurações para diferentes ambientes (desenvolvimento, produção, etc.).
