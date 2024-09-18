@@ -1,0 +1,13 @@
+.navCategories {
+    padding: 0 3rem;
+    margin: 3rem 0;
+    color: var(--white-050);
+
+}
+.navCategories ul{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+}
